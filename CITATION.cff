@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "RefractPath"
+abstract: ""Slant-path atmospheric refraction computed by several independent standard methods with their DISAGREEMENT reported as a measured curve against elevation, and the elevation below which that disagreement exceeds a declared pointing tolerance measured rather than asserted. Baseline 1 the simple plane-parallel and standard low-precision closed forms, implemented as what is actually used; baseline 2 a ray-trace through a layered refractivity profile with refractivity from standard dispersion formulae, the reference the closed forms are scored against; ground-truth cross-check against PUBLISHED reference values and refraction tables at stated conditions, which the implementations must reproduce to a stated tolerance - a verification against values the product did not generate, the only kind that counts here. NO LEARNED COMPONENT, DELIBERATELY: this is a well-posed physical calculation with published references and the useful output is the cross-model disagreement, not a prediction. The low-elevation regime where every closed form fails is exhibited explicitly rather than extrapolated into, and wavelength dependence verified across the optical band against the dispersion formula independently.""
+type: software
+authors:
+  - family-names: "Acharya"
+    given-names: "Om"
+    alias: "OmAcharya-avtr"
+repository-code: "https://github.com/OmAcharya-avtr/refractpath"
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2026-08-30"
+keywords:
+  - aerospace
+  - atmospheric-propagation
